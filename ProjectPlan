@@ -151,7 +151,7 @@ Each member must invest `credits \* 27 hours - 15 hours´ in the project.
 
 \section{Material}
 
-Everyone should have a computer. We also need mobile phones to test the application. It could be possible to get desktop computers (or extra screens) if we get a own room.
+We need mobile phones to test the application. Customer has promised to deliver some test phones, but a wide range of different phones cannot be guaranteed. The CSE department can borrow desktop computers to our group with virtual machines installed. These computers need to be set up to our team room A243. This room will be shared with another project group (\#15 - TrafficSense) so we need to be careful what we leave into that room. Personal goods should not be left to the room for own sake.
 
 A development environment can be downloaded from Internet if needed. Eclipse is an open-source and free to download, and the project manager has a JetBrain's Classroom License, so that IntelliJ IDEA Ultimate can be used during the course.
 
