@@ -265,8 +265,31 @@ Agilefant will be used for gathering requirements from customer and maintaining 
 
 \section{Sprint 1 Plan}
 
+Goals:
+\begin{itemize}
+\item To understand Agilefant's vision
+\item To have the main requirements from the Customer
+\item To understand the process that is used in the course
+\item To have a draft of the architecture design
+\end{itemize}
+
 \section{Sprint 2 Plan}
 
+Goals:
+\begin{itemize}
+\item Set up the development environment
+\item Get touch with the code 
+\item To have the code base ready 
+\item To have the architecture design ready
+\end{itemize}
+
+\noindent Deliverables:
+\begin{itemize}
+\item Project plan (no QA plan)
+\item Progress report slides
+\item Contract (one per group)
+\item Requirements document (except details of requirements)
+\end{itemize}
 
 \chapter{Risk log}
 
