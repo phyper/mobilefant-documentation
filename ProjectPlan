@@ -33,7 +33,7 @@ Agilefant is an open source tool for task and requirement management for agile s
 
 Agilefant has approximately 10,000 users worldwide, and according to the customer, the number of registered users increases every day. 
  
-Currently Agilefant can be used on a laptop / computer, but it is not responsible to be used on mobile devices. The customer wishes that the users of Agilefant could use its the most important functions using their mobile phones and tablets. The goal of our team is to develop a mobile application that works along the hosted version of Agilefant and can be used on smart phones.
+Agilefant is a very powerful tool for requirement management but currently it is too detailed to be used on mobile devices (small screens). The customer wishes that the users of Agilefant could use its the most important functions using their mobile phones and tablets. Agilefant's main competitors are already providing mobile applications, so it is crucial to Agilefant to response for this. Therefore, the goal of our team is to develop a mobile application that works along the hosted version of Agilefant and can be used on both smart phones and tables.
 
 \chapter{Stakeholders and staffing}
 \section{The Team}
