@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.11.28)  14 NOV 2013 17:01
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.11.28)  14 NOV 2013 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -382,8 +382,6 @@ Underfull \hbox (badness 4699) in paragraph at lines 50--50
 []\OT1/cmr/m/n/10 Quality As-
  []
 
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ¶ in font cmr10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 98--98
 []\OT1/cmr/m/n/10 Product
@@ -482,10 +480,10 @@ Package rerunfilecheck Info: File `ProjectPlan.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 285.
  ) 
 Here is how much of TeX's memory you used:
- 5907 strings out of 493488
- 87206 string characters out of 3141325
+ 5908 strings out of 493488
+ 87214 string characters out of 3141325
  184588 words of memory out of 3000000
- 9122 multiletter control sequences out of 15000+200000
+ 9123 multiletter control sequences out of 15000+200000
  8379 words of font info for 30 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  29i,11n,34p,516b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -495,7 +493,7 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ProjectPlan.pdf (13 pages, 106879 bytes).
+Output written on ProjectPlan.pdf (13 pages, 106886 bytes).
 PDF statistics:
  243 PDF objects out of 1000 (max. 8388607)
  219 compressed objects within 3 object streams
