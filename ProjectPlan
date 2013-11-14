@@ -37,6 +37,7 @@ Currently Agilefant can be used on a laptop / computer, but it is not responsibl
 \section{The Team}
 
 \begin{table}[H]
+\center
 \begin{tabular}{|p{2cm}|p{3.8cm}|p{4.1cm}|p{1.8cm}|} 
 	
 \hline % The line on top of the table
@@ -62,14 +63,17 @@ Developer & Joakim Kronqvist & & \\
 \hline
 
 \end{tabular} % for really simple tables, you can just use tabular
+\caption{The team}
+\label{table:Team}
 \end{table}
 
-NB! Each developer should act as an assistant to some of the SE experts in order to get a broader view to the project
+NB! Each developer should act as an assistant to some of the SE experts in order to get a broader view to the project.
 
 
 \section{Mentor}
 
 \begin{table}[H]
+\center
 \begin{tabular}{|p{2cm}|p{3.8cm}|} 
 
 \hline 
@@ -78,21 +82,26 @@ NB! Each developer should act as an assistant to some of the SE experts in order
 Mentor & Casper Lassenius \\
 \hline
 \end{tabular}
+\caption{Mentor}
+\label{table:Mentor}
 \end{table}
 
 \section{Customer}
 
 \begin{table}[H]
+\center
 \begin{tabular}{|p{2cm}|p{3.8cm}|} 
 	
 \hline 
 \textbf{Role} & \textbf{Name} \\ 
 \hline
-Product owner & Jarno Vahaniitty \\
+Product owner & Jarno V\"{a}h\"{a}niitty \\
 \hline
 Tech. Lead & Santeri Korri \\
 \hline
 \end{tabular} 
+\caption{Customer}
+\label{table:Customer}
 \end{table}
 
 
@@ -102,19 +111,20 @@ Tech. Lead & Santeri Korri \\
 
 The main goal is to develop an mobile application for Agilefant that contains the main functionalities of its cloud version.
 
- Table 1: Project goals in the priority order
-
 \begin{table}[H]
-\begin{tabular}{|p{2cm}|p{3.8cm}|} 
+\center
+\begin{tabular}{|p{0.5cm}|p{6.5cm}|p{6.5cm}|} 
 
 \hline 
-\textbf{Goal} & \textbf{Verification Criteria} \\ 
+\centering \textbf{\#} & \textbf{Goal} & \textbf{Verification Criteria} \\ 
 \hline
-1 & - \\
+\centering 1 & To build a limited set of key use cases & Architecturally sound, clear implementation and testable \\
 \hline
-2 & - \\
+\centering 2 & - & - \\
 \hline
-\end{tabular} 
+\end{tabular}
+\caption{Project goals in the priority order}
+\label{table:Projectgoals}
 \end{table}
 
 
@@ -155,21 +165,24 @@ Story points will be given based on people’s opinion of how much time it requi
 5: two work days
 10: five days
 
-If the story is estimated to be larger than 10 story points, it can be seen as an epic and should be splitted to smaller stories so that it can be finished during the sprint.
+If the story is estimated to be larger than 10 story points, it can be seen as an epic and should be split to smaller stories so that it can be finished during the sprint.
 
- Table 3: The content of sprint planning
-Part
-Time
-Description
-Participants
-1
-1h
-The product owner presents the prioritized product backlog, so that the teams would understand what should be done during a following sprint. The product owner is there for answering any questions the teams would like to ask relating to the user stories and tasks. Then the teams select items from the product backlog to the sprint backlog based on their knowledge of how much work they are capable of doing during a sprint. Sprint goal is agreed in this part.
-Product owner, team members
-2
-2h
-Teams are separated to plan how the chosen work will be done during the sprint. Users stories will be assigned to team members. User stories are splitted into tasks and the required time per a task is estimated by a person the task was assigned to. In this meeting, the team can start design the system so that they are able to convert the backlog items into a working software increment.
-Team members
+
+\begin{table}[H]
+\center
+\begin{tabular}{|p{1cm}|p{2cm}|p{5cm}|p{4cm}|} 
+	
+\hline 
+\textbf{Part} & \textbf{Duration} & \textbf{Description} & \textbf{Participants} \\ 
+\hline
+1 & 1h & The product owner presents the prioritized product backlog, so that the teams would understand what should be done during a following sprint. The product owner is there for answering any questions the teams would like to ask relating to the user stories and tasks. Then the teams select items from the product backlog to the sprint backlog based on their knowledge of how much work they are capable of doing during a sprint. Sprint goal is agreed in this part. & Product owner, team members \\
+\hline
+2 & 2h & Teams are separated to plan how the chosen work will be done during the sprint. Users stories will be assigned to team members. User stories are split into tasks and the required time per a task is estimated by a person the task was assigned to. In this meeting, the team can start design the system so that they are able to convert the backlog items into a working software increment. & Team members \\
+\hline
+\end{tabular} 
+\caption{The content of a sprint planning}
+\label{table:Sprintplanning}
+\end{table}
 
 \subsection{Documenting}
 
@@ -198,7 +211,7 @@ Agilefant could be used
 
 Git and Github will be used for version control. 
 
-TODO: How to do it when 3 teams? Check options from here.
+TODO: How to use it when 3 teams? Check options from \href{https://www.atlassian.com/git/workflows}{here}.
 
 \subsection{Process improvement}
 
@@ -229,10 +242,9 @@ Agilefant will be used for gathering requirements from customer and maintaining 
 
 \chapter{Risk log}
 
-Table 4: A risk log (Probability: 1=lowest, 3=highest, Severity: 1= lowest, 3=highest).
-
 \begin{table}[H]
-	\begin{adjustwidth}{-2cm}{}
+\center
+\begin{adjustwidth}{-2cm}{}
 \begin{tabular}{|p{0.5cm}|p{3cm}|p{1cm}|p{1.5cm}|p{3cm}|p{3cm}|p{3cm}|} 
 	
 \hline % The line on top of the table
@@ -249,6 +261,8 @@ Using pair programming. &
 The team / project manager \\
 \hline
 \end{tabular} 
+\caption{A risk log (Probability: 1=lowest, 3=highest, Severity: 1= lowest, 3=highest)}
+\label{table:Risklog}
 \end{adjustwidth}
 \end{table}
 
