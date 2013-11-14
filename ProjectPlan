@@ -255,17 +255,16 @@ The team / project manager \\
  
 \begin{thebibliography}{9}
 
-\bibitem{lamport94}
-  url = "Test url"
+\bibitem{Sobertit1}
+	Project Management Guidelines, "\url{http://www.soberit.hut.fi/T-76.4115/13-14/instructions/project_management.html#Project_review}"
+	
+\bibitem{Sobertit2}
+		Project Management Guidelines, "\url{http://www.soberit.hut.fi/T-76.4115/13-14/instructions/template/project_plan.html}"
 
-\end{thebibliography} 
- 
- 
- 
+\bibitem{ScrumGuide}
+Scrum Guide, "\url{https://www.scrum.org/Portals/0/Documents/Scrum%20Guides/Scrum_Guide.pdf}"
 
-%http://www.soberit.hut.fi/T-76.4115/13-14/instructions/project_management.html#Project_review
-%http://www.soberit.hut.fi/T-76.4115/13-14/instructions/template/project_plan.html
-%https://www.scrum.org/Portals/0/Documents/Scrum%20Guides/Scrum_Guide.pdf
+\end{thebibliography}
 
 
 
