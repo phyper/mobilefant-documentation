@@ -37,35 +37,37 @@ The group's web page is located in \href{https://studentwiki.aalto.fi/display/MO
 
 \section{The Team}
 
-Here we are only listing a role, name, responsibilities and an assistant role of each team member. We have a document with everyone's contact informations such as email, phone number and github name, but we won't keep it public.
+Here we are only listing the role, name, email, responsibilities and an assistant role of each team member. We have a document with everyone's personal informations such as email, phone number and github name, but we won't publish those informations excluding email.
 
 \begin{table}[H]
 \center
-\begin{tabular}{|p{2cm}|p{3.8cm}|p{4.1cm}|p{1.8cm}|} 
+\begin{adjustwidth}{-1cm}{}
+\begin{tabular}{|p{1.8cm}|p{3cm}|p{4.1cm}|p{4.1cm}|p{1.8cm}|} 
 	
 \hline % The line on top of the table
-\textbf{Role} & \textbf{Name} & \textbf{Responsibilities} & \textbf{Assistant role} \\ 
+\textbf{Role} & \textbf{Name} & \textbf{Email} & \textbf{Responsibilities} & \textbf{Assistant role} \\ 
 \hline 
-Project Manager & Benjamin Behm & Organizing the work, removing impediments, documenting, process supervising, coding & - \\ 
+Project Manager & Benjamin Behm & benjamin.behm\#aalto.fi & Organizing the work, removing impediments, documenting, process supervising, coding & - \\ 
 \hline
-Architect & Harri Lampi & Architectural design & - \\ 
+Architect & Harri Lampi & harri.lampi\#aalto.fi & Architectural design & - \\ 
 \hline
-Quality Assurance & Matias Kuusela & QA & - \\ 
+Quality Assurance & Matias Kuusela & matias.kuusela\#aalto.fi & QA & - \\ 
 \hline
-Developer & Aleksi Hoffman &  & \\
+Developer & Aleksi Hoffman & aleksi.hoffman\#aalto.fi & & \\
 \hline
-Developer & Miro Vilkki & & \\
+Developer & Miro Vilkki & miro.vilkki\#aalto.fi &  & \\
 \hline
-Developer & Rolle Saarinen & & \\
+Developer & Rolle Saarinen & rolle.saarinen\#aalto.fi &  & \\
 \hline
-Developer & Janne Gr\"{o}ndahl & & \\
+Developer & Janne Gr\"{o}ndahl & janne.grondahl\#aalto.fi & & \\
 \hline
-Developer & Janne Kajovuori & & \\
+Developer & Janne Kajovuori & janne.kajovuori\#aalto.fi & & \\
 \hline
-Developer & Joakim Kronqvist & & \\
+Developer & Joakim Kronqvist & joakim.kronqvist\#aalto.fi & & \\
 \hline
 
 \end{tabular} % for really simple tables, you can just use tabular
+\end{adjustwidth}
 \caption{The team}
 \label{table:Team}
 \end{table}
@@ -77,12 +79,12 @@ NB! Each developer should act as an assistant to some of the SE experts in order
 
 \begin{table}[H]
 \center
-\begin{tabular}{|p{2cm}|p{3.8cm}|} 
+\begin{tabular}{|p{2cm}|p{3.8cm}|p{4.1cm}|} 
 
 \hline 
-\textbf{Role} & \textbf{Name} \\ 
+\textbf{Role} & \textbf{Name} & \textbf{Email} \\ 
 \hline
-Mentor & Casper Lassenius \\
+Mentor & Casper Lassenius & casper.lassenius\#aalto.fi \\
 \hline
 \end{tabular}
 \caption{Mentor}
@@ -93,17 +95,17 @@ Mentor & Casper Lassenius \\
 
 \begin{table}[H]
 \center
-\begin{tabular}{|p{2cm}|p{3.8cm}|} 
+\begin{tabular}{|p{2cm}|p{3.8cm}|p{4.1cm}|} 
 	
 \hline 
-\textbf{Role} & \textbf{Name} \\ 
+\textbf{Role} & \textbf{Name} & \textbf{Email}\\ 
 \hline
-Product owner & Jarno V\"{a}h\"{a}niitty \\
+Product owner & Jarno V\"{a}h\"{a}niitty & jarno\#agilefant.org\\
 \hline
-Tech. Lead & Santeri Korri \\
+Tech. Lead & Santeri Korri & santeri\#agilefant.org\\
 \hline
 \end{tabular} 
-\caption{Customer}
+\caption{Customer representatives}
 \label{table:Customer}
 \end{table}
 
