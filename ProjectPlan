@@ -3,6 +3,9 @@
 \usepackage{float}
 \usepackage[medium]{titlesec}
 
+%For tightly-packed lists, use the mdwlist package
+\usepackage{mdwlist}
+
 \usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
 
 \usepackage[showframe=false]{geometry}
@@ -166,12 +169,14 @@ Sprint planning session will be divided into two parts. The content of the sprin
 
 Stories will be estimated based on fibonacci numbers.
 Story points will be given based on people’s opinion of how much time it requires to finish the story. Possible story points are listed below:
-1: without a break
-2: half a day
-3: a day (= full work day for a pair)
-5: two work days
-10: five days
-
+\begin{description*}
+\item[1:] without a break
+\item[2:] half a day
+\item[3:] a day (= full work day for a pair)
+\item[5:] two work days
+\item[10:] five days
+\end{description*}
+	
 If the story is estimated to be larger than 10 story points, it can be seen as an epic and should be split to smaller stories so that it can be finished during the sprint.
 
 
@@ -261,7 +266,11 @@ Agilefant will be used for gathering requirements from customer and maintaining 
 
 \chapter{Phasing}
 
+Tasks are not listed in this project plan, as they are listed and maintained in \href{https://cloud.agilefant.com/dev/}{Agilefant}.
+
 \section{Schedule}
+
+
 
 \section{Sprint 1 Plan}
 
