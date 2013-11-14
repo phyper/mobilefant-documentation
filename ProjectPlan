@@ -199,8 +199,29 @@ If the story is estimated to be larger than 10 story points, it can be seen as a
 
 Time tracking will be done using Agilefant. Everyone should log used hours directly to the story or task the person has been doing.
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{imgs/spenteffort1.png}
+\caption{Story and task with spent effort}
+\label{fig:spenteffort1}
+\end{figure}
 
-When the course is over, credits will be given based on the hours logged to the Agilefant (excluding lectures).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{imgs/spenteffort2.png}
+\caption{Log spent effort}
+\label{fig:spenteffort2}
+\end{figure}
+
+When the course is over, credits will be given based on the hours logged to the Agilefant (+ hours spent on lectures). The view shown in Figure~\ref{fig:totalhours} can be found in Timesheets where user needs to select backlog(s), interval and user(s) to generate the timesheet where used hours are listed.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{imgs/totalhours.png}
+\caption{Total used hours}
+\label{fig:totalhours}
+\end{figure}
 
 \subsection{Communication}
 
