@@ -24,10 +24,6 @@
 
 \maketitle
 
-\begin{abstract}
-The abstract text goes here.
-\end{abstract}
-
 \chapter{Introduction}
 Agilefant is an open source tool for task and requirement management for agile software development. It is provided as an open-source version and a hosted version. The hosted version comprises more and better features in comparison to the open-source version.
 
