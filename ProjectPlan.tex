@@ -1,37 +1,3 @@
-\documentclass{article}
-
-\usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
-
-\usepackage{graphicx}
-\usepackage{float}
-\usepackage[medium]{titlesec}
-
-%For tightly-packed lists, use the mdwlist package
-\usepackage{mdwlist}
-
-\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spa
-cing=true,factor=1100,stretch=10,shrink=10]{microtype}
-
-\usepackage[showframe=false]{geometry}
-\usepackage{changepage}
-
-\RequirePackage[pdftex]{hyperref}
-% Setup hyperref so that links are clickable but do not look 
-% different
-\hypersetup{colorlinks=true,raiselinks=false,breaklinks=true}
-\hypersetup{pdfborder={0 0 0}}
-\hypersetup{bookmarksnumbered=true}
-\restylefloat{table}
-\hypersetup{bookmarksopen=true,bookmarksopenlevel=1}
-
-\begin{document}
-
-\title{Mobilefant Project Plan}
-%\author{The team}
-
-\maketitle
-
 \section{Introduction}
 Agilefant is an open source tool for task and requirement management for agile 
 software development. It is provided as an open-source version and a hosted 
@@ -200,15 +166,22 @@ Classroom License, so that IntelliJ IDEA Ultimate can be used during the course.
 \subsubsection{Iterative development}
 
 Development will be divided into several sprints so that after every sprint we 
-would have an improved version of the application ready to release.
+would have an improved product increment of the application ready to release. 
 
 A sprint contains four phases: sprint planning, development, demo, and 
 retrospective. 
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{imgs/scrum_process_en.png}
+\caption{Scrum process}
+\label{fig:scrum}
+\end{figure}
+
 \subsubsection{Sprint planning}
 
 Sprint planning session will be divided into two parts. The content of the 
-sprint planning is presented in Table 3.
+sprint planning is presented in Table~\ref{table:Sprintplanning}.
 
 Stories will be estimated based on fibonacci numbers.
 Story points will be given based on people’s opinion of how much time it 
@@ -260,8 +233,16 @@ increment. & Team members \\
 
 \subsubsection{Time tracking}
 
-Time tracking will be done using Agilefant. Everyone should log used hours 
-directly to the story or task the person has been doing.
+The groups' time tracking will be applied in Agilefant. The group should follow these time tracking practices:
+\begin{itemize}
+\item Each group member should enter their own hours by themselves to the Agilefant.
+\item Hours are logged directly to the story or more preferably to the task after the work is done. 
+\item Hours should be logged before leaving the office
+\end{itemize}
+
+Agilefant provides burndown charts that are used to follow the project's progress and those also tell whether estimated hours are correlating with actual hours. That helps group to shape its task estimation.
+
+As the group is logging spent effort to the Agilefant, the customer is able to follow whether the group is working as promised. 
 
 \begin{figure}[H]
 \centering
@@ -304,6 +285,8 @@ communication tool. Aalto provides 180 days license for that.
 
 Google Hangout is proposed to be used for communication with off-site team 
 members.
+
+In very urgent situations phone calls or text messaging can be used, but primary the group is using tools mentioned above.
 
 \subsubsection{Defect tracking}
 
@@ -402,26 +385,3 @@ The team / project manager \\
 \label{table:Risklog}
 \end{adjustwidth}
 \end{table}
-
- 
-\begin{thebibliography}{9}
-
-\bibitem{Sobertit1}
-	Project Management Guidelines, 
-"\url{http://www.soberit.hut.fi/T-76.4115/13-14/instructions/project_management.
-html#Project_review}"
-	
-\bibitem{Sobertit2}
-		Project Management Guidelines, 
-"\url{http://www.soberit.hut.fi/T-76.4115/13-14/instructions/template/project_pl
-an.html}"
-
-\bibitem{ScrumGuide}
-Scrum Guide, 
-"\url{https://www.scrum.org/Portals/0/Documents/Scrum%20Guides/Scrum_Guide.pdf}"
-
-\end{thebibliography}
-
-
-
-\end{document}

@@ -1,0 +1,57 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[medium]{titlesec}
+
+%For tightly-packed lists, use the mdwlist package
+\usepackage{mdwlist}
+
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spa
+cing=true,factor=1100,stretch=10,shrink=10]{microtype}
+
+\usepackage[showframe=false]{geometry}
+\usepackage{changepage}
+
+\RequirePackage[pdftex]{hyperref}
+% Setup hyperref so that links are clickable but do not look 
+% different
+\hypersetup{colorlinks=true,raiselinks=false,breaklinks=true}
+\hypersetup{pdfborder={0 0 0}}
+\hypersetup{bookmarksnumbered=true}
+\restylefloat{table}
+\hypersetup{bookmarksopen=true,bookmarksopenlevel=1}
+
+\begin{document}
+
+\title{Mobilefant Project Plan}
+%\author{The team}
+
+\maketitle
+
+\input{projectplan}
+ 
+\begin{thebibliography}{9}
+
+\bibitem{Sobertit1}
+	Project Management Guidelines, 
+"\url{http://www.soberit.hut.fi/T-76.4115/13-14/instructions/project_management.
+html#Project_review}"
+	
+\bibitem{Sobertit2}
+		Project Management Guidelines, 
+"\url{http://www.soberit.hut.fi/T-76.4115/13-14/instructions/template/project_pl
+an.html}"
+
+\bibitem{ScrumGuide}
+Scrum Guide, 
+"\url{https://www.scrum.org/Portals/0/Documents/Scrum%20Guides/Scrum_Guide.pdf}"
+
+\end{thebibliography}
+
+
+
+\end{document}
