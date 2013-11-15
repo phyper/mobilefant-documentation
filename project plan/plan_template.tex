@@ -1,0 +1,53 @@
+\documentclass[fontsize=10pt, toc=bibliographynumbered, paper=A4, pagesize]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{mdwlist}
+\usepackage{float}
+
+\RequirePackage[pdftex]{hyperref}
+% Setup hyperref so that links are clickable but do not look 
+% different
+\hypersetup{colorlinks=true,raiselinks=false,breaklinks=true}
+\hypersetup{pdfborder={0 0 0}}
+\hypersetup{bookmarksnumbered=true}
+\hypersetup{bookmarksopen=true,bookmarksopenlevel=1}
+
+\begin{document}
+
+%\titlehead{}
+\subject{Project Plan}
+\title{Mobilefant}
+%\subtitle{}
+\author{}
+\date{\today}
+%\publishers{}
+\maketitle
+\thispagestyle{empty}
+\newpage
+
+\tableofcontents
+\newpage
+
+\input{projectplan}
+
+\begin{thebibliography}{9}
+
+\bibitem{Sobertit1}
+	Project Management Guidelines, 
+``\url{http://www.soberit.hut.fi/T-76.4115/13-14/instructions/project_management.
+html#Project_review}''
+	
+\bibitem{Sobertit2}
+		Project Management Guidelines, 
+``\url{http://www.soberit.hut.fi/T-76.4115/13-14/instructions/template/project_pl
+an.html}''
+
+\bibitem{ScrumGuide}
+Scrum Guide, 
+``\url{https://www.scrum.org/Portals/0/Documents/Scrum%20Guides/Scrum_Guide.pdf}''
+
+\end{thebibliography}
+
+\end{document}
