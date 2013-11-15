@@ -1,4 +1,8 @@
-\documentclass{report}
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage[medium]{titlesec}
@@ -24,11 +28,11 @@ cing=true,factor=1100,stretch=10,shrink=10]{microtype}
 \begin{document}
 
 \title{Mobilefant Project Plan}
-\author{The team}
+%\author{The team}
 
 \maketitle
 
-\chapter{Introduction}
+\section{Introduction}
 Agilefant is an open source tool for task and requirement management for agile 
 software development. It is provided as an open-source version and a hosted 
 version. The hosted version comprises more and better features in comparison to 
@@ -46,18 +50,18 @@ this. Therefore, the goal of our team is to develop a mobile application that
 works along the hosted version of Agilefant and can be used on both smart 
 phones and tables.
 
-\chapter{Stakeholders and staffing}
+\section{Stakeholders and staffing}
 
 The group's web page is located in 
 \href{https://studentwiki.aalto.fi/display/MOB/Mobilefant+Home}{Studentwiki}. 
 
 The group's email is mobilefant\#agilefant.org.
 
-\section{The Team}
+\subsection{The Team}
 
 Here we are only listing the role, name, email, responsibilities and an 
 assistant role of each team member. We have a document with everyone's personal 
-informations such as email, phone number and github name, but we won't publish 
+informations such as email, phone number and Github name, but we won't publish 
 those informations excluding email.
 
 \begin{table}[H]
@@ -82,7 +86,7 @@ Developer & Miro Vilkki & miro.vilkki\#aalto.fi &  & \\
 \hline
 Developer & Rolle Saarinen & rolle.saarinen\#aalto.fi &  & \\
 \hline
-Developer & Janne Gr\"{o}ndahl & janne.grondahl\#aalto.fi & & \\
+Developer & Janne Gröndahl & janne.grondahl\#aalto.fi & & \\
 \hline
 Developer & Janne Kajovuori & janne.kajovuori\#aalto.fi & & \\
 \hline
@@ -99,7 +103,7 @@ NB! Each developer should act as an assistant to some of the SE experts in
 order to get a broader view to the project.
 
 
-\section{Mentor}
+\subsection{Mentor}
 
 \begin{table}[H]
 \center
@@ -115,7 +119,7 @@ Mentor & Casper Lassenius & casper.lassenius\#aalto.fi \\
 \label{table:Mentor}
 \end{table}
 
-\section{Customer}
+\subsection{Customer}
 
 \begin{table}[H]
 \center
@@ -124,7 +128,7 @@ Mentor & Casper Lassenius & casper.lassenius\#aalto.fi \\
 \hline 
 \textbf{Role} & \textbf{Name} & \textbf{Email}\\ 
 \hline
-Product owner & Jarno V\"{a}h\"{a}niitty & jarno\#agilefant.org\\
+Product owner & Jarno Vähäniitty & jarno\#agilefant.org\\
 \hline
 Tech. Lead & Santeri Korri & santeri\#agilefant.org\\
 \hline
@@ -135,8 +139,8 @@ Tech. Lead & Santeri Korri & santeri\#agilefant.org\\
 
 
 
-\chapter{The Goals}
-\section{Project goals}
+\section{The Goals}
+\subsection{Project goals}
 
 The main goal is to develop a mobile application for Agilefant that contains 
 the main functionalities of its cloud version.
@@ -159,22 +163,22 @@ clear implementation and testable \\
 \end{table}
 
 
-\section{Personal goals}
+\subsection{Personal goals}
 
 Personal learning goals can be found in Google Docs: 
 \href{https://docs.google.com/spreadsheet/ccc?key=0Ahu59q_GwtcedHJZdjQ1RWROZFYxa
 0RTcWp3MkJkTnc&usp=sharing}{Learning Goals}
 
-\chapter{Resources}
-\section{Personnel}
+\section{Resources}
+\subsection{Personnel}
 
-Each member must invest `credits \* 27 hours - 15 hours´ in the project.
+Each member must invest credits * 27 hours - 15 hours in the project.
 
 \href{https://docs.google.com/spreadsheet/ccc?key=0Ahu59q_GwtcedHI3MnJQM0NWZS11a
 GxFTzFZeVEyQVE&usp=sharing}{Link} to the time allocation page. Everyone should 
 mark how much time he/she is going to use per a week to the table.
 
-\section{Material}
+\subsection{Material}
 
 We need mobile phones to test the application. The customer has promised to 
 deliver some test phones, but a wide range of different phones with different 
@@ -191,9 +195,9 @@ A development environment can be downloaded from Internet if needed. Eclipse is
 an open-source and free to download, and the project manager has a JetBrain's 
 Classroom License, so that IntelliJ IDEA Ultimate can be used during the course.
 
-\chapter{Work practices}
-\section{Practices}
-\subsection{Iterative development}
+\section{Work practices}
+\subsection{Practices}
+\subsubsection{Iterative development}
 
 Development will be divided into several sprints so that after every sprint we 
 would have an improved version of the application ready to release.
@@ -201,7 +205,7 @@ would have an improved version of the application ready to release.
 A sprint contains four phases: sprint planning, development, demo, and 
 retrospective. 
 
-\subsection{Sprint planning}
+\subsubsection{Sprint planning}
 
 Sprint planning session will be divided into two parts. The content of the 
 sprint planning is presented in Table 3.
@@ -250,11 +254,11 @@ increment. & Team members \\
 \label{table:Sprintplanning}
 \end{table}
 
-\subsection{Documenting}
+\subsubsection{Documenting}
 
-\subsection{Risk management}
+\subsubsection{Risk management}
 
-\subsection{Time tracking}
+\subsubsection{Time tracking}
 
 Time tracking will be done using Agilefant. Everyone should log used hours 
 directly to the story or task the person has been doing.
@@ -287,7 +291,7 @@ hours are listed.
 \label{fig:totalhours}
 \end{figure}
 
-\subsection{Communication}
+\subsubsection{Communication}
 
 Team will keep a daily standup meeting every time they gather together to work. 
 The daily standup will be a short, 15-minute time-boxed meeting where team 
@@ -301,18 +305,18 @@ communication tool. Aalto provides 180 days license for that.
 Google Hangout is proposed to be used for communication with off-site team 
 members.
 
-\subsection{Defect tracking}
+\subsubsection{Defect tracking}
 
 Agilefant could be used
 
-\subsection{Version control}
+\subsubsection{Version control}
 
 Git and Github will be used for version control. 
 
 TODO: How to use it when 3 teams? Check options from 
 \href{https://www.atlassian.com/git/workflows}{here}.
 
-\subsection{Process improvement}
+\subsubsection{Process improvement}
 
 A retro will be arranged at the end of each sprint. There will be three phases:
 
@@ -325,25 +329,25 @@ which might need some attention.
 explain what they wrote.
 \end{enumerate}
 
-\subsection{Requirement engineering}
+\subsubsection{Requirement engineering}
 
 Agilefant will be used for gathering requirements from customer and maintaining 
 the backlog. 
 
-\subsection{Design}
+\subsubsection{Design}
 
-\subsection{Practice X}
+\subsubsection{Practice X}
 
-\chapter{Phasing}
+\section{Phasing}
 
 Tasks are not listed in this project plan, as they are listed and maintained in 
 \href{https://cloud.agilefant.com/dev/}{Agilefant}.
 
-\section{Schedule}
+\subsection{Schedule}
 
 
 
-\section{Sprint 1 Plan}
+\subsection{Sprint 1 Plan}
 
 Goals:
 \begin{itemize}
@@ -353,7 +357,7 @@ Goals:
 \item To have a draft of the architecture design
 \end{itemize}
 
-\section{Sprint 2 Plan}
+\subsection{Sprint 2 Plan}
 
 Goals:
 \begin{itemize}
@@ -371,7 +375,7 @@ Goals:
 \item Requirements document (except details of requirements)
 \end{itemize}
 
-\chapter{Risk log}
+\section{Risk log}
 
 \begin{table}[H]
 \center
