@@ -292,6 +292,7 @@ documentation should be visible so that changes are easily seen.
 
 The group's web page is located in 
 \href{https://studentwiki.aalto.fi/display/MOB/Mobilefant+Home}{Studentwiki}. That works as a base for links to actual documents.
+TODO: Could we use Github's \href{https://github.com/phyper/mobilefant-documentation/wiki}{wiki}?
 
 The SE trio is responsible for writing mandatory course documentation. 
 Developers can help to write documents based on their interests. Their effort 
@@ -490,22 +491,62 @@ Goals:
 \begin{table}[H]
 \center
 \resizebox{\textwidth}{!}{
-\begin{tabular}{|p{0.5cm}|p{3cm}|p{1cm}|p{1.5cm}|p{3cm}|p{3cm}|p{3cm}|} 
+\begin{tabular}{|p{0.5cm}|p{3cm}|p{1cm}|p{1.5cm}|p{4cm}|p{4cm}|p{1cm}|} 
 	
 \hline % The line on top of the table
 \textbf{ID} & \textbf{Risk} & \textbf{Prob.} & \textbf{Sev.} & \textbf{Effects} 
-& \textbf{Controlling actions} & \textbf{Responsible} \\ 
+& \textbf{Controlling actions} & \textbf{Resp.} \\ 
 \hline
+
 1 &
-A developer quits in the middle of the project.
+A developer quits in the middle of the project. &
+2 &
+3 & 
+Some knowledge is lost. Project scope must be decreased. &
+Taking care of good team spirit. Using pair programming. &
+PM / All \\
+\hline
+
+2 & 
+Adapting with Scrum practices is harder than expected. & 
+& 
+& 
+Productivity is lower than assumed and stories cannot be finished on time. & 
+Providing enough training. & 
+PM \\
+\hline
+
+3 &
+The team could not build a code base that is wide enough to divide development 
+tasks among three teams on January. &
+3 &
+3 &
+All developers cannot start development right away, but need to wait until the 
+code base is ready. The project scope must be decreased. &
+Architectural design needs to be started asap. Team members should start coding 
+small features asap to get familiar with technologies. &
+AR \\
+\hline
+
+4 &
+The customer have to leave the CS-building on January, 2014. &
 2 &
 3 &
-Some knowledge is lost. &
-Project scope must be decreased. &
-Taking care of good team spirit.
-Using pair programming. &
-The team / project manager \\
+Getting feedback takes longer and the amount of face-to-face meetings decreases. 
+&
+&
+PM / Customer \\
 \hline
+
+&
+&
+&
+&
+&
+&
+\\
+\hline
+
 \end{tabular} 
 }
 \caption{A risk log (Probability: 1=lowest, 3=highest, Severity: 1= lowest, 
