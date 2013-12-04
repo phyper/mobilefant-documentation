@@ -68,8 +68,6 @@ eliciting requirements & - \\
 \hline
 \textbf{QA}, RE & Matias Kuusela & matias.kuusela\#aalto.fi & QA &  \\ 
 \hline
-\textbf{Dev}, AR & Aleksi Hoffman & aleksi.hoffman\#aalto.fi & & \\
-\hline
 \textbf{Dev} & Miro Vilkki & miro.vilkki\#aalto.fi &  & \\
 \hline
 \textbf{Dev} & Rolle Saarinen & rolle.saarinen\#aalto.fi &  & \\
@@ -88,8 +86,7 @@ eliciting requirements & - \\
 \end{table}
 
 NB! Each developer should act as an assistant to some of the SE experts in 
-order to get a broader view to the project.
-
+order to get a broader view of the project.
 
 \subsection{Mentor}
 
@@ -131,7 +128,7 @@ Tech. Lead & Santeri Korri & santeri\#agilefant.org\\
 \subsection{Project goals}
 
 The main goal is to develop a mobile application for Agilefant that contains 
-the main functionalities of its cloud version and fulfill customer's vision of 
+the main functionalities of its cloud version and fulfil customer's vision of 
 the product. Other high level goals are identified, and these are presented in 
 Table~\ref{table:Projectgoals}.
 
@@ -190,8 +187,10 @@ mark how much time he/she is going to use per a week to the table.
 
 We need mobile phones to test the application. The customer has promised to 
 deliver some test phones, but a wide range of different phones with different 
-platforms cannot be guaranteed. The CSE department can borrow desktop computers 
-to our group with virtual machines installed. These computers need to be set up 
+platforms cannot be guaranteed. In this reason we will use our own mobile phones for testing.
+
+The CSE department borrows three desktop computers 
+to our group with Ubuntu 12.04 installed. These computers have been set up 
 to our team room A243.
 
 The room (A243) will be shared with an another project group (\#15 - 
@@ -217,13 +216,9 @@ way of working and allow the development team to react to changes in
 requirements faster than traditional development frameworks.
 
 The course is divided into three phases (Planning, Implementation 1 and 
-Implementation 2). Planning phase has two 2-weeks sprints. Implementation 1 and 
-Implementation 2 have both 3 sprints, two 2-weeks sprints and one 3-weeks 
-sprint. It need to be remembered that there are exam weeks in Finland, so those 
-affect the times when students are willing to work for the project.
+Implementation 2). We don't emphasize these phases as we have planned to have two sprints before the Christmas and seven sprints after the Christmas. Because of the exam week on week 8, we have one sprint of three weeks whereas the other sprints are two weeks. 
 
-A sprint contains four phases: sprint planning, development, demo, and 
-retrospective. 
+We will be following the scrum practices meaning that we will keep sprint planning, sprint review and sprint retrospective sessions in every sprint.
 
 \begin{figure}[H]
 \centering
@@ -236,6 +231,8 @@ retrospective.
 
 Sprint planning session will be divided into two parts. The content of the 
 sprint planning is presented in Table~\ref{table:Sprintplanning}. The project management has responsible for arranging sprint planning sessions.
+
+The sprint planning session will be held using Google Hangout so that The Finns are located in their team room in Finland and the Canadiens are located in their class room in Vancouver, Canada.
 
 \begin{table}[H]
 \center
@@ -252,7 +249,7 @@ product owner is there for answering any questions the teams would like to ask
 relating to the user stories and tasks. Then the teams select items from the 
 product backlog to the sprint backlog based on their knowledge of how much work 
 they are capable of doing during a sprint. Sprint goal is agreed in this part. 
-& Product owner, team members \\
+& Product owner, members of each team \\
 \hline
 2 & 2h & Teams are separated to plan how the chosen work will be done during 
 the sprint. Users stories will be assigned to team members. User stories are 
@@ -268,20 +265,23 @@ increment. & Team members \\
 \end{table}
 
 In a sprint planning session (excluding sprint 1), stories are estimated using 
-story points following fibonacci numbers. Story points will be given based on 
-people’s opinion of how much time it requires to finish the story. Possible 
+story points following the pattern of fibonacci numbers. Story points are not directly relating to possible time needed to finish a story but rather describe their 
+
+ Possible 
 story points are listed below with approximate time:
 \begin{description*}
-\item[1:] without a break
-\item[2:] half a day
-\item[3:] a day (= full work day for a pair)
-\item[5:] two work days
-\item[10:] five days
+\item[1]
+\item[2]
+\item[3]
+\item[5]
+\item[10]
 \end{description*}
 	
 If the story is estimated to be larger than 10 story points, it can be seen as 
 an epic and should be split to smaller stories so that it can be finished 
 during the sprint.
+
+The customer said we should not have larger stories than 10 points.
 
 \subsubsection{Documenting}
 
@@ -291,8 +291,7 @@ seeing our documentation. In addition, the change log of each documents
 documentation should be visible so that changes are easily seen.
 
 The group's web page is located in 
-\href{https://studentwiki.aalto.fi/display/MOB/Mobilefant+Home}{Studentwiki}. That works as a base for links to actual documents.
-TODO: Could we use Github's \href{https://github.com/phyper/mobilefant-documentation/wiki}{wiki}?
+\href{https://github.com/phyper/mobilefant-documentation/wiki}{Github}. That works as a base for links to actual documents.
 
 The SE trio is responsible for writing mandatory course documentation. 
 Developers can help to write documents based on their interests. Their effort 
@@ -300,6 +299,10 @@ is preferable at least when planning the architecture and eliciting
 requirements from the customer. 
 
 \subsubsection{Risk management}
+
+Trio held a risk management session together with one developer. The session was held in the middle of the first sprint and it took 30 minutes. During the session we identified several potential risks. When these risks were identified, we estimated the probability and severity of each risk and discussed a little bit how to minimize the occurrence of these risks. 
+
+The risk log is maintained regularly by the SE trio. At the end of each sprint the log is review and updated.
 
 \subsubsection{Time tracking}
 
@@ -372,12 +375,9 @@ All code should be located in the version control system.
 Agilefant uses Git (and Github) so we are also going to use 
 them.
 
-TODO: Where the repository will be located?
+We have a private repository under Soberit organization. The repository is named as \href{https://github.com/soberit/mobilefant}{Mobilefant}.
 
-TODO: How to use it when 3 teams? Check options from 
-\href{https://www.atlassian.com/git/workflows}{here}.
-
-In feature branching each feature is developed using a separate 
+We have decided to try out feature branching approach with a single repository. In feature branching each feature is developed using a separate 
 branch in the version control system. This means that every time 
 a developer starts a new feature, he/she will create a new 
 branch for that, and after the feature is ready, the feature 
@@ -385,28 +385,32 @@ branch will be merged to the main branch. The main branch should
 contain only working code, which is verified by compiling the 
 code and running the test. All tests should pass.
 
+We have to be sure everyone understands how to use Github in order not to mess the whole repository as everyone has privileges to push anything into master.
+
+We have defined a general git workflow. It can be found \href{https://docs.google.com/document/d/1wAih0JzkrZ4ySUZ_MO-F8MvGkPXKHicYbG1972Sxo2w/edit?usp=sharing}{here}.
+
 \subsubsection{Process improvement}
 
 A retrospective is arranged at the end of each sprint. The goal of having 
 regular retrospectives is to improve the process and avoid roadblocks in 
 development process.
 
-For retrospectives, we have a \href{https://docs.google.com/spreadsheet/ccc?key=0Ahu59q_GwtcedGE1dnZtTHNzRDZ4YWR5aXp3NDhMcnc&usp=sharing}{Google Spreadsheet} for each team where the team list thoughts that are divided 
-into two groups: what went well and what could go better. 
+For retrospectives, we are using \href{http://wirca.soberit.hut.fi/prod/}{ARCA-tool} developed in Aalto University. It's a tool that helps us to keep better retrospective meetings and analyze root cause of problems. In this way, these meetings can be more productive and less time will be wasted.
 
-The retrospective is time-boxed to one hour (this depends on how much time 
+In general the ideas that are generated during a retrospective meeting are divided into two categories: what went well and what could be improved. 
+
+The retrospective meeting is time-boxed to one hour (this depends on how much time 
 Canadians have). We have to have enough time to sit down and discuss about the 
 past sprint, otherwise there is no reason to keep this kind of meetings. 
 
 The retrospective contains three phases:
 
 \begin{enumerate}
-\item First, we will go through impediments from the previous 
-retrospective and check if the impediments have been fixed.
-\item Second, each team member will write down aspects that has 
-worked well and which might need some attention.
-\item Third, these will be collected and written to Excel and 
-everyone should explain what they wrote.
+\item First, everyone enters problems to ARCA-tool.
+\item Second, the entered problems are discussed together.
+\item Third, everyone enters underlying causes to the problems identified earlier.
+\item Fourth, causes are discussed and additional causes are added if needed.
+\item Fifth, findings are summarized at the end of the meeting.
 \end{enumerate}
 
 \subsubsection{Requirement engineering}
@@ -529,21 +533,62 @@ AR \\
 \hline
 
 4 &
-The customer have to leave the CS-building on January, 2014. &
+The customer has to leave the CS-building on January, 2014. &
 2 &
 3 &
 Getting feedback takes longer and the amount of face-to-face meetings decreases. 
 &
-&
+To generate a backup plan of how stay contacted with the customer. &
 PM / Customer \\
 \hline
 
-&
-&
-&
-&
-&
-&
+5 &
+Merge conflicts when all have privileges to push staff to master &
+3 &
+3 &
+Lots of effort have to put to resolve the problems. &
+Git training should be provided to everyone if needed. &
+PM
+\\
+\hline
+
+6 &
+Non-experienced users mess the git repository &
+3 &
+3 &
+Lots of effort have to put to resolve the problems. &
+Git training should be provided to everyone if needed. &
+PM
+\\
+\hline
+
+7 &
+Major changes in requirements &
+1 &
+3 &
+The outcome of the project will suffer. &
+We should collaborate actively with the customer to stay informed about requirements. &
+Product owner, teams
+\\
+\hline
+
+8 &
+Communication with off-site team members wont't work as supposed. &
+2 &
+3 &
+Stories are not finished on time. People won't know what others are doing. &
+Scrum master should observe that good communication practices are followed. &
+Scrum master
+\\
+\hline
+
+9 &
+A team divides to sub-teams &
+3 &
+3 &
+Team efficiently decreases and the team spirit suffers &
+Scrum master should observe procedures within a team &
+Scrum master
 \\
 \hline
 
@@ -553,3 +598,8 @@ PM / Customer \\
 3=highest)}
 \label{table:Risklog}
 \end{table}
+
+\subsection{Materialized risks}
+
+One developer quit during the first sprint as he found out he wouldn't be able to participate in the project as needed.
+
