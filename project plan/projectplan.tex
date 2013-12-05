@@ -38,11 +38,9 @@ communication.
 \subsection{The Team}
 
 Here we are only listing the role, name, email, responsibilities and an 
-assistant role of each team member. We have a document with everyone's personal 
-informations such as email, phone number and Github name, but we won't publish 
-those informations excluding email.
+assistant role of each team member in Finland. We have a document with everyone's personal informations such as email, phone number and Github name, but we won't publish those informations excluding email.
 
-The group's email is mobilefant\#agilefant.org.
+The group's email is mobilefant\#mobilefant.flowdock.com
 
 We have several roles and one person can have several roles. The primary role is bolded. The roles are:
 
@@ -72,17 +70,17 @@ eliciting requirements & - \\
 \hline
 \textbf{QA}, RE & Matias Kuusela & matias.kuusela\#aalto.fi & QA &  \\ 
 \hline
-\textbf{Dev}, AR & Aleksi Hoffman & aleksi.hoffman\#aalto.fi & & \\
+%\textbf{Dev}, AR & Aleksi Hoffman & aleksi.hoffman\#aalto.fi & & \\
+%\hline
+\textbf{Dev} & Miro Vilkki & miro.vilkki\#aalto.fi & Development, REST framework & \\
 \hline
-\textbf{Dev} & Miro Vilkki & miro.vilkki\#aalto.fi &  & \\
+\textbf{Dev} & Rolle Saarinen & rolle.saarinen\#aalto.fi & Development, REST & \\
 \hline
-\textbf{Dev} & Rolle Saarinen & rolle.saarinen\#aalto.fi &  & \\
+\textbf{Dev} & Janne Gröndahl & janne.grondahl\#aalto.fi & Development, REST & \\
 \hline
-\textbf{Dev} & Janne Gröndahl & janne.grondahl\#aalto.fi & & \\
+\textbf{Dev} & Janne Kajovuori & janne.kajovuori\#aalto.fi & Development, UI, documentation & \\
 \hline
-\textbf{Dev} & Janne Kajovuori & janne.kajovuori\#aalto.fi & & \\
-\hline
-\textbf{Dev} & Joakim Kronqvist & joakim.kronqvist\#aalto.fi & & \\
+\textbf{Dev} & Joakim Kronqvist & joakim.kronqvist\#aalto.fi & Development, UI & \\
 \hline
 
 \end{tabular} % for really simple tables, you can just use tabular
@@ -134,14 +132,15 @@ Tech. Lead & Santeri Korri & santeri\#agilefant.org\\
 \section{The Goals}
 \subsection{Project goals}
 
-The main goal is to develop a reliable mobile application for Agilefant that contains 
-the main functionalities of its cloud version and fulfil customer's vision of 
-the product. Furthermore, the goal is that everyone's personal goals will be reached and the 
-course has been an educational experience. Other high level goals are identified, and these 
-are presented in Table~\ref{table:Projectgoals}.
+The main goal is to develop a reliable mobile application for Agilefant that
+contains  the main functionalities of its cloud version and fulfil customer's
+vision of  the product. Furthermore, the goal is that everyone's personal goals
+will be reached and the  course has been an educational experience. Other high
+level goals are identified, and these are presented in
+Table~\ref{table:Projectgoals}.
 
-Personal learning goals are taken into account when dividing tasks. Tasks are tried to assign 
-to people so that those support personal learning goals.
+Personal learning goals are taken into account when dividing tasks. Tasks are
+tried to assign to people so that those support personal learning goals.
 
 \begin{table}[H]
 \center
@@ -177,9 +176,13 @@ clear implementation and testable. \\
 
 \subsection{Personal goals}
 
-As we are here learning new things, we should focus to learn things we are interested in. Thus, it is important that everyone tells theirs interests aloud and points out what they would like to learn during this course. 
+As we are here learning new things, we should focus to learn things we are
+interested in. Thus, it is important that everyone tells theirs interests
+aloud and points out what they would like to learn during this course.
 
-If a developer is going to take this course second time later and has a preferable role in his mind, it is really recommendable that he takes some responsibility of that manager role.
+If a developer is going to take this course second time later and has a
+preferable role in his mind, it is really recommendable that he takes some
+responsibility of that manager role.
 
 Personal learning goals can be found in Google Docs: 
 \href{https://docs.google.com/spreadsheet/ccc?key=0Ahu59q_GwtcedHJZdjQ1RWROZFYxa
@@ -198,40 +201,56 @@ mark how much time he/she is going to use per a week to the table.
 
 We need mobile phones to test the application. The customer has promised to 
 deliver some test phones, but a wide range of different phones with different 
-platforms cannot be guaranteed. The CSE department can borrow desktop computers 
-to our group with virtual machines installed. These computers need to be set up 
+platforms cannot be guaranteed. The CSE department borrows 3 desktop computers 
+to our group with Ubuntu 12.04 installed. These computers are set up 
 to our team room A243.
 
-The room (A243) will be shared with an another project group (\#15 - 
-TrafficSense) so we need to schedule the usage of the room with them. The idea 
-will be that both teams will have specific days and hours the room is 
-exclusively reserved for them. At other times, everyone could use the room.
+The room (A243) is shared with an another project group (\#15 -  TrafficSense)
+so we need to schedule the usage of the room with them. The idea  will be that
+both teams will have specific days and hours the room is  exclusively reserved
+for them. At other times, everyone could use the room. Currently we have
+agreed that our team uses the room on Monday and Thuesday, and the another
+team on Friday.
 
 A development environment can be downloaded from Internet if needed. Eclipse is 
 an open-source and free to download, and the project manager has a JetBrain's 
-Classroom License, so that IntelliJ IDEA Ultimate can be used during the course.
+Classroom License, so that IntelliJ IDEA Ultimate can be used during the course. Apache Cordova is also open-source tool.
+
+\begin{itemize}
+\item IntelliJ IDEA 12 Ultimate
+\item Apache Cordova
+\item Android SDK tools
+\item Xcode (on macs)
+\item Github
+\item Google Drive
+\item Google Hangout
+\end{itemize}
+
 
 \section{Work practices}
 
-In this section we describe what working practices we have planned to use on this course. Each group member should understand what practices are used and how to adopt them properly in order to work efficiently.
+In this section we describe what working practices we have planned to use on
+this course. Each group member should understand what practices are used and
+how to adopt them properly in order to work efficiently.
 
 \subsection{Practices}
 \subsubsection{Iterative development}
 
-We are working iteratively during the course. The idea is to build the product 
-incrementally and iteratively. We will be using an agile software development 
-method called Scrum. Its focus is to provide guidelines that enable flexible 
-way of working and allow the development team to react to changes in 
-requirements faster than traditional development frameworks.
+We are working iteratively during the course. The idea is to build the product
+incrementally and iteratively. We will be using an agile software development
+method called Scrum. Its focus is to provide guidelines that enable flexible
+way of working and allow the development team to react to changes in
+requirements faster than traditional development methods.
 
-The course is divided into three phases (Planning, Implementation 1 and 
-Implementation 2). Planning phase has two 2-weeks sprints. Implementation 1 and 
-Implementation 2 have both 3 sprints, two 2-weeks sprints and one 3-weeks 
-sprint. It need to be remembered that there are exam weeks in Finland, so those 
+The course is divided into three phases (Planning, Implementation 1 and
+Implementation 2). We have 10 2-weeks sprints, so that Implementation 1 will
+change in the middle of one sprint.
+
+It need to be remembered that there are exam weeks in Finland, so those
 affect the times when students are willing to work for the project.
 
-A sprint contains four phases: sprint planning, development, demo, and 
-retrospective. 
+A sprint contains four phases: sprint planning, development, demo, and
+retrospective.
 
 \begin{figure}[H]
 \centering
@@ -240,10 +259,19 @@ retrospective.
 \label{fig:scrum}
 \end{figure}
 
+\subsubsection{Sprint grooming}
+
+A couple days before the end of a sprint, the project manager grooms the
+project backlog with the product owner. Also other team members are allowed to
+participate in the meeting if they have time. In this meeting they will
+prioritize the project backlog and clarify user stories so that the project
+backlog is ready for the sprint planning meeting.
+
 \subsubsection{Sprint planning}
 
-Sprint planning session will be divided into two parts. The content of the 
-sprint planning is presented in Table~\ref{table:Sprintplanning}. The project management has responsible for arranging sprint planning sessions.
+Sprint planning session will be divided into two parts. The content of the
+sprint planning is presented in Table~\ref{table:Sprintplanning}. The project
+manager is responsible for arranging sprint planning sessions.
 
 \begin{table}[H]
 \center
@@ -254,13 +282,13 @@ sprint planning is presented in Table~\ref{table:Sprintplanning}. The project ma
 \textbf{Part} & \textbf{Duration} & \textbf{Description} & 
 \textbf{Participants} \\ 
 \hline
-1 & 1h & The product owner presents the prioritized product backlog, so that 
-the teams would understand what should be done during a following sprint. The 
+1 & 1h & The product owner presents the prioritized project backlog, so that 
+the teams would understand what should be done during a sprint. The 
 product owner is there for answering any questions the teams would like to ask 
 relating to the user stories and tasks. Then the teams select items from the 
 product backlog to the sprint backlog based on their knowledge of how much work 
 they are capable of doing during a sprint. Sprint goal is agreed in this part. 
-& Product owner, team members \\
+& Product owner, all members of each team \\
 \hline
 2 & 2h & Teams are separated to plan how the chosen work will be done during 
 the sprint. Users stories will be assigned to team members. User stories are 
