@@ -889,7 +889,7 @@ Goals:
 \begin{table}[H]
 \center
 \resizebox{\textwidth}{!}{
-\begin{tabular}{|p{0.5cm}|p{3cm}|p{1cm}|p{1.5cm}|p{4cm}|p{4cm}|p{1cm}|} 
+\begin{tabular}{|p{0.5cm}|p{3cm}|p{1cm}|p{1cm}|p{4cm}|p{4cm}|p{1.5cm}|} 
 	
 \hline % The line on top of the table
 \textbf{ID} & \textbf{Risk} & \textbf{Prob.} & \textbf{Sev.} & \textbf{Effects} 
@@ -902,7 +902,7 @@ A developer quits in the middle of the project. &
 3 & 
 Some knowledge is lost. Project scope must be decreased. &
 Taking care of good team spirit. Using pair programming. &
-PM / All \\
+PM / team \\
 \hline
 
 2 & 
@@ -921,9 +921,10 @@ tasks among three teams on January. &
 3 &
 All developers cannot start development right away, but need to wait until the 
 code base is ready. The project scope must be decreased. &
-Architectural design needs to be started asap. Team members should start coding 
-small features asap to get familiar with technologies. &
-AR \\
+Architectural design needs to be started as soon as possible. Team members
+should start coding small features as soon as possible to get familiar with
+technologies.
+& AR \\
 \hline
 
 4 &
@@ -937,55 +938,90 @@ PM / Customer \\
 \hline
 
 5 &
-Merge conflicts when all have privileges to push staff to master &
+Merge conflicts in Git when all have privileges to push code to master. &
 3 &
 3 &
 Lots of effort have to put to resolve the problems. &
 Git training should be provided to everyone if needed. &
-PM
-\\
+PM \\
 \hline
 
 6 &
-Non-experienced users mess the git repository &
+Non-experienced users mess the Git repository. &
 3 &
 3 &
 Lots of effort have to put to resolve the problems. &
 Git training should be provided to everyone if needed. &
-PM
-\\
+PM \\
 \hline
 
 7 &
-Major changes in requirements &
+Major changes in requirements. &
 1 &
 3 &
 The outcome of the project will suffer. &
 We should collaborate actively with the customer to stay informed about
 requirements. & 
-Product owner, teams
-\\
+Customer / teams \\
 \hline
 
 8 &
-Communication with off-site team members wont't work as supposed. &
+Communication with off-site team members won't work as supposed. &
 2 &
 3 &
 Stories are not finished on time. People won't know what others are doing. &
 Scrum master should observe that good communication practices are followed. &
-SM 
-\\
+SM \\
 \hline
 
 9 &
-A team divides to sub-teams &
+A team divides to sub-teams. &
 3 &
 3 &
-Team's efficiency decreases and the team spirit suffers &
-Scrum master should observe procedures within a team &
-SM
-\\
+Team's efficiency decreases and the team spirit suffers. &
+Scrum master should observe procedures within a team. &
+SM \\
 \hline
+
+10 &
+REST API is not working properly. &
+2 &
+3 &
+All data is not available. Effort should be allocated to develop the REST API. &
+Customer should put effort to ensure that the REST API is working properly.
+& Customer, AR \\
+\hline
+
+11 &
+Lack of proper testing devices. &
+3 &
+2 &
+Correct behaviour of the application cannot be tested using wide range of real
+devices.
+& Using our own devices and different emulators. & 
+Customer \\
+\hline
+
+12 &
+The Finns' hours run out before the end of the course. &
+3 &
+3 &
+Cooperation with Canadian students is harder. &
+Hour usage need to be followed. Developers with lower amount of credits
+work less during the fall. &
+PM \\
+\hline
+
+13 &
+Chosen technologies are not suitable for our needs. & 
+1 &
+3 &
+Major changes need to be done and project scope will be decreased. &
+Architecture should be well designed together with the customer at the
+beginning of the project. &
+AR \\
+\hline
+
 
 \end{tabular} 
 }
@@ -997,5 +1033,5 @@ SM
 \subsection{Materialized risks}
 
 One developer quit during the first sprint as he found out he wouldn't be able
-to participate in the project as needed.
+to participate in the project as required.
 
