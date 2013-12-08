@@ -2,7 +2,7 @@
 
 Agilefant is an open source tool for agile project management. Currently it is
 provided as an open-source version and a hosted version. The hosted version
-comprises more and better features in comparison to the open-source version.
+comprises more features in comparison to the open-source version.
 
 Agilefant has approximately 10,000 users worldwide, and according to the
 customer, the number of registered users increases every day.
@@ -13,28 +13,30 @@ that the users of Agilefant could use its the most important functions using
 their mobile phones and tablets. For example, users could log spent hours after
 a workday when sitting in a bus. Agilefant's main competitors are already
 providing mobile applications, so it is crucial to Agilefant to also provide a
-mobile client. Therefore, the goal of our team is to develop a mobile
+mobile client. Therefore, the goal of our group is to develop a mobile
 application that works along the hosted version of Agilefant and can be used on
-both smart phones and tables.
+both smart phones and tablets.
 
 \subsection{Vision}
 
-Agilefant's vision is to become the leading provider of agile backlog management
+Customer's vision is to become the leading provider of agile backlog management
 tools. This mobile application has an important role of fulfilling the vision as
-it works as a threshold factor for many potential users who are making the
-decision about acquiring this kind of tool.
+missing mobile support can be a major threshold factor for many potential
+new users.
 
 \section{Stakeholders and staffing}
 
 The project contains several stakeholders, which are presented in
-Figure~\ref{fig:stakeholders}. The stakeholders are divided into four groups:
-the customer (Agilefant), the student group, the teaching personnel in Aalto
-University, and teaching personnel in University of Victoria. Arrows in the
-figure present the direction of main communication.
+Figure~\ref{fig:stakeholders}. The stakeholders are divided into four main
+groups: the customer (Agilefant), the student group, the teaching personnel in
+Aalto University, and teaching personnel in University of Victoria (UVic).
+In addition to these, Amazon's web server is listed as a stakeholder as the
+application needs to communicate with it. Arrows in the figure present the
+direction of main communication. 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=1\textwidth]{imgs/stakeholders.png}
+\includegraphics[width=1\textwidth]{imgs/stakeholders.jpg}
 \caption{Stakeholders of the project}
 \label{fig:stakeholders}
 \end{figure}
@@ -42,13 +44,13 @@ figure present the direction of main communication.
 \subsection{The Team}
 
 At the beginning of the course we had a team of 9 people, but we lost one
-developer so now we have only 8 students. At the beginning of 2014, 15 Canadians
+developer so now we have only 8 students. At the beginning of 2014, 15 Canadian
 students will join us, so we will have a group of 23 students. We will form
 three teams, each of them consisting of both Finns and Canadians.
 
 In this document, only some personal information is published. We have a
-document with stakeholder's more detailed personal information but we don't want
-to make that public.
+document with stakeholders' more detailed personal information but we don't
+want to make that public.
 
 The group's webpage is
 \href{https://github.com/phyper/mobilefant-documentation/wiki}{https://github.com/phyper/mobilefant-documentation/wiki}
@@ -181,15 +183,15 @@ Table~\ref{table:Projectgoals}.
 opinion about the delivered product. \\
 \hline
 
-\centering 2 & To build a limited set of key use cases & Architecturally sound, 
-clear implementation and testable. \\
+\centering 2 & To implement a limited set of key use cases & Architecturally
+sound, clear implementation and testable. \\
 \hline
 
 \centering 3 & The product will be released after the project & Whether the
 customer release the product or not. \\ 
 \hline
 
-\centering 4 & To produce an application that is an easy to develop further &
+\centering 4 & To produce an application that is easy to develop further &
 The customer's developers understand the code easily and they have no
 difficulties to add new features in it. \\
 \hline
@@ -205,7 +207,7 @@ group at the end of the course. \\
 
 \end{tabular}
 }
-\caption{Project goals in the priority order}
+\caption{Project goals in a priority order}
 \label{table:Projectgoals}
 \end{table}
 
@@ -230,28 +232,35 @@ The course in Finland is a course of fixed hours, meaning that the
 Finns must invest ``credits * 27 hours - 15 hours'' in the project. For example
 a person with 8 credits must spend 201 hours during the project.
 
-We have \href{https://docs.google.com/spreadsheet/ccc?key=0Ahu59q_GwtcedHI3MnJQM0NWZS11a
-GxFTzFZeVEyQVE&usp=sharing}{a time allocation spreadsheet} with hours everyone
-has planned to use during the course. In that spreadsheet we also follow how
-much hours everyone has used and how much hours have left.
+In Figure~\ref{fig:timeallocation}, we have estimated hours everyone is going to
+use during the course. The same information is available in a
+\href{https://docs.google.com/spreadsheet/ccc?key=0Ahu59q_GwtcedHI3MnJQM0NWZS11a
+GxFTzFZeVEyQVE&usp=sharing}{time allocation spreadsheet}. In that spreadsheet we
+also follow how much effort has been used and how much is left.
 
-Hour estimates can change next year when students know their new schedule.
-Currently hour estimates for the spring are only rough estimates.
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{imgs/timeallocation.png}
+\caption{Time allocation (updated on 2013/12/06)}
+\label{fig:timeallocation}
+\end{figure}
 
-In a Figure~\ref{fig:hours_phases}, it can be seen that just before the last
-week of the planning phase starts we have a little bit hours left. 
+In a Figure~\ref{fig:hours_phases}, it can be seen that total hours used in the
+planning phase is almost equivalent with the planned hours. The figure doesn't
+count hours used in the last week of the planning phase.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=1\textwidth]{imgs/chart_1.png}
-\caption{Hours per a phase (Updated on 2013/12/06)}
+\caption{Hours per a phase (updated on 2013/12/06)}
 \label{fig:hours_phases}
 \end{figure}
 
 Figure~\ref{fig:hours_weeks} shows the planned and realized hours a weekly
-basis. It is clearly visible that after the first week hours were used more than
-planned. The Finns should monitor used hours to be sure that they will have
-enough hours left to work with the Canadian students.
+basis. It is clearly visible that after the first week the realized hours
+exceeded the planned hours. The Finns should monitor used hours to be sure that
+hours won't run out in the middle of the course. The project manager monitors
+regularly the spent effort.
 
 \begin{figure}[H]
 \centering
@@ -259,6 +268,10 @@ enough hours left to work with the Canadian students.
 \caption{Hours per a week}
 \label{fig:hours_weeks}
 \end{figure}
+
+Hour estimates will be adjusted again at the beginning of Sprint 3 when students
+know their spring's schedule and we get more information about Canada
+cooperation.
 
 \subsection{Material}
 
@@ -271,14 +284,18 @@ used.
 
 \paragraph{Communication tools}~
 
-Flowdock is used as a primary communication channel and Google Hangout as a
-video conferencing tool.
+Flowdock is used as a primary communication tool. Aalto provides 180 days
+license for that. Google Hangout will be used as a video conferencing tool.
+
+\paragraph{Design tools}~
+
+Lucidchart tool is used to draw UI wireframes and other diagrams.
 
 \paragraph{Working space}~
 
 Development will take place at CS building in the room A243. The room is shared
-with an another project group (\#15 - TrafficSense) so we need to schedule the
-usage of the room with them. The idea will be that the both teams will have
+with an another project group (\#15 - TrafficSense) so we have been scheduled
+the usage of the room with them. The idea will be that the both teams will have
 specific days and hours the room is exclusively reserved for them. At other
 times, everyone could use the room. Currently we have agreed that our team uses
 the room on Monday and Thursday, and the another team on Friday and Tuesday or
@@ -290,7 +307,7 @@ The CSE department borrowed three desktop computers to our group with Ubuntu
 
 \paragraph{Testing devices}~
 
-We need mobile phones to test the application. The customer has promised to
+We need mobile devices to test the application. The customer has promised to
 deliver some test devices, but the selection will be limited. In this reason we
 will also use our own mobile phones for testing. We have phones with IOS,
 Android and WP8 platforms.
@@ -300,12 +317,11 @@ Android and WP8 platforms.
 The application must communicate with Agilefant's back-end. Agilefant contains a
 REST API that we use to manipulate data on Agilefant's server. The REST API is
 not totally ready yet but the customer has promised to put some effort to make
-it work so that we can use it properly.
-
+it work, if needed.
 
 \section{Work practices}
 
-In this section we describe what working practices we have planned to use on
+In this section we describe what working practices we have planned to use in
 this course. Each group member should understand what practices are used and
 how to adopt them properly in order to work efficiently.
 
@@ -316,8 +332,8 @@ how to adopt them properly in order to work efficiently.
 We are working iteratively during the course. The idea is to build the product
 incrementally and iteratively. We will be using an agile software development
 method called scrum that is presented in Figure~\ref{fig:scrum}. We will be
-following the scrum practices meaning that we will keep sprint planning, sprint review and sprint
-retrospective sessions in every sprint.
+following the scrum practices meaning that we will keep sprint planning, sprint
+review and sprint retrospective sessions in every sprint.
 
 Even though the course is divided into three phases (Planning, Implementation 1
 and Implementation 2), we can't rigorously follow these phases because of the
@@ -383,8 +399,9 @@ sprint planning is presented in Table~\ref{table:Sprintplanning}. The project
 manager is responsible for arranging sprint planning sessions.
 
 The sprint planning session will be held using Google Hangout so that The Finns
-are located in their team room in Finland and the Canadiens are located in their
-class room in Vancouver, Canada.
+are located in their team room in Finland and the Canadians are located in their
+class room in Vancouver, Canada. In the phase 1, everyone is participated in the
+same Hangout, but in the phase 2, teams discuss using separate Hangouts.
 
 \begin{table}[H]
 \center
@@ -429,10 +446,20 @@ that they are able to convert the backlog items into a working software incremen
 \end{table}
 
 In a sprint planning session (excluding sprint 1), stories are estimated using
-story points following the pattern of fibonacci numbers. Possible story points
+story points following the fibonacci scale. Possible story points
 are 1, 2, 3, 5, and 10. If the story is estimated to be larger than 10 story
 points, it can be seen as an epic and should be split to smaller stories so that
 it can be finished during the sprint.
+
+As we have only one product owner and we will have 3 distributed teams, the
+planning poker could be challenging to be performed using only hands. In this
+reason, we have created
+\href{https://docs.google.com/spreadsheet/ccc?key=0Ahu59q_GwtcedFp4dXQzVmFoQWlxandqMkxtdEFiaVE&usp=sharing}{a
+planning poker spreadsheet} that can be used for several teams. The idea is that
+everyone opens the spreadsheet and type the number under his/her name, but not
+press the enter yet. As all estimates has been entered (each cell is gray), the
+product owner will count 3, 2, 1 and then everyone press the enter and the story
+points are revealed.
 
 The customer said we should not have larger stories than 10 points. We also
 agreed that we won't tie story points to any hour estimates. If one story is
@@ -464,8 +491,8 @@ technical specifications, and user's manual.
 
 Trio held a risk management session together with one developer. The session was
 held in the middle of the first sprint and it took 30 minutes. During the
-session we identified several potential risks. When these risks were identified,
-we estimated the probability and severity of each risk and discussed a little
+session several potential risks were identified. When the risks were
+identified, we estimated the probability and severity of each risk and discussed a little
 bit how to minimize the realization of the risks.
 
 The risk log is maintained regularly by the SE trio. At the end of each sprint
@@ -476,7 +503,7 @@ the log is review and updated.
 The group's time tracking will be applied in Agilefant. The group should follow 
 these time tracking practices:
 \begin{itemize}
-\item Each group member should enter their own hours by themselves to the 
+\item Each group member should enter their own hours by themselves in 
 Agilefant.
 \item Hours are logged directly to the story or more preferably to the task 
 after the work is done. 
@@ -492,9 +519,11 @@ Excel every Monday. The project manager follows that time is logged in
 Agilefant and remind other team members to log hours if needed.
 
 As the group is logging spent effort to the Agilefant, the customer is able to
-follow whether the group is working as promised.
+follow that the project is progressing.
 
-Below are two screenshots of how to log hours to Agilefant.
+Below are two screenshots of how to log hours to Agilefant. Hours can be entered
+by clicking hours number on Spent column or by clicking Spent effort under a
+Edit button.
 
 \begin{figure}[H]
 \centering
@@ -511,8 +540,8 @@ Below are two screenshots of how to log hours to Agilefant.
 \label{fig:spenteffort2}
 \end{figure}
 
-When the course is over, credits will be given based on the hours logged to the 
-Agilefant (+ hours spent on lectures). The view shown in 
+When the course is over, the Finns will be get credits based on
+the hours logged to the Agilefant (+ hours spent on lectures). The view shown in 
 Figure~\ref{fig:totalhours} can be found in Agilefant under Timesheets where
 user needs to select backlog(s), interval and user(s) to generate the timesheet where used 
 hours are listed.
@@ -546,10 +575,14 @@ We can also try out a practice where a team member attends to other team's daily
 scrum to get information about what they are doing. Then the person can share
 the information with his/her team.
 
-Flowdock is agreed to be used as a primary communication channel.Aalto provides
-180 days license for that.
+Flowdock is agreed to be used as a primary communication channel. It allows to
+create own communication flows for each team. In addition to team flows,
+technical discussions can be separated into own flows, so that all parties who
+are interested in the subject can participate in the conversation. These can be
+seen as communities of practice. Currently we have separate flows for
+documentation, UI and REST.
 
-Google Hangout is proposed to be used for communication with off-site team
+Google Hangout is proposed to be used for video communication with off-site team
 members.
 
 Project manager send a weekly email to all stakeholders to keep them informed
@@ -558,8 +591,8 @@ about the progress of the project.
 In very urgent situations phone calls or text messaging can be used, but primary
 the group is using tools mentioned above.
 
-\href{http://tinyurl.com/mobilefant}{Google calendar} is used to share all
-events and deadlines of the project. Each team member and other stakeholders
+A public \href{http://tinyurl.com/mobilefant}{Google calendar} is used to share
+all events and deadlines of the project. Each team member and other stakeholders
 are able to see the calendar and follow our meeting times.
 
 Communication with the customer usually happens face-to-face in our teamroom or
@@ -568,13 +601,13 @@ their office.
 \subsubsection{Defect tracking}
 
 For defect tracking we are using Github's
-\href{https://github.com/soberit/mobilefant/issues}{Issues}
-functionality. It is an easy-to-use tool for keeping track of issues found
-during the development process. It allows to assign a person to the issue and define a
-milestone when the issue needs to be fixed. It also informs us immediately when
-new issues are created. This is one reason why the team wanted to use some
-real issue tracker instead of Agilefant. Issues are also automatically posted on
-our Flowdock stream from where everyone is able see them.
+\href{https://github.com/soberit/mobilefant/issues}{Issues} application. It is
+an easy-to-use tool for keeping track of issues found during the development
+process. It allows to assign a person to the issue and define a milestone when
+the issue needs to be fixed. It also informs us immediately when new issues are
+created. This is one reason why the team wanted to use some real issue tracker
+instead of Agilefant. Issues are also automatically posted on our Flowdock
+stream from where everyone is able see them.
 
 When a new bug is found, it need to be reported immediately to the issue
 tracking system in order to inform everyone else of found issue. The issue can
@@ -583,10 +616,9 @@ be closed only when it is fixed and someone else has tested it.
 \subsubsection{Version control}
 
 All code should be located in the version control system. Agilefant uses Git
-(and Github) so we are also going to use them.
-
-Soberit provided us a private repository. The repository is named
-as \href{https://github.com/soberit/mobilefant}{Mobilefant}.
+(and Github) so we are also going to use them. Soberit provided us a private
+repository. The repository is named as
+\href{https://github.com/soberit/mobilefant}{mobilefant}.
 
 We have decided to try out feature branching approach with a single repository.
 In feature branching each feature is developed using a separate branch in the
@@ -665,15 +697,19 @@ backlog. The team generates ideas at the same time they are implementing
 existing user stories. The ideas are shared with the customer face-to-face or in
 Flowdock.
 
-Requirements are specified in a backlog grooming session at the end of each
-sprint. All requirements are collected to Agilefant and it is up to the product
-owner to keep the project backlog up to date and prioritized.
+As we are working an agile way, we don't define requirements at a detailed level
+at the beginning of the project. But instead, requirements emerge as the
+project elapses. The most important requirements are specified and prioritized
+in a backlog grooming session at the end of each sprint so that the project backlog
+would be up to date in the sprint planning session. All requirements are
+collected in Agilefant and it is up to the product owner to keep the project
+backlog up to date and prioritized.
 
 Requirements are usually listed in the project backlog in non-user story form to
 keep the list clear and readable, but the team together with the product owner
 should define the user stories in the description field for each story. This
 format helps everyone to capture the who, what and why of a requirement. The
-template for a user story is following:
+template of a user story is presented below:
 
 \begin{verbatim}
     As a <role>, I want <goal/desire> so that <benefit>.
@@ -688,11 +724,11 @@ Overall architectural design is up to the lead architect, but other teammates
 are also allowed to participate in the design process. The customer's lead
 developer is actively participating in the architectural planning as he has the
 technical view of requirements. As we need not to touch the Agilefant's backend,
-we need not to understand what is happening in there. We need to design what
-technologies are used so that the performance would be good enough and it
+we need not to have a detailed view of what is happening in there. We need to
+design what technologies are used so that the performance would be good enough and it
 follows the techological practices used in the Agilefant's hosted version.
 
-UI design sessions are arranged at the beginning of project. First, the UI
+UI design sessions are arranged at the beginning of the project. First, the UI
 wireframes are drafted using pencil and paper, but after the drafts are approved
 by the customer, they are transferred to digital form using Lucidchart tool.
 
@@ -735,16 +771,16 @@ backlogs which are listed below:
 The spring's schedule is still an open question as we don't know how we are
 going to organize the third sprint in Canada and when the fourth sprint should
 start. We need to discuss about this with our mentor and the Canadian professor.
-There are three optional schedules that are presented below. The first one
-assumes we hold the sprint planning sessions on Monday, where as on Thursday on
-the others. On the second one, we have only two weeks sprints after the
+There are three optional schedules that are presented below. In the first one we
+would hold the sprint planning sessions on Mondays, while in the others it is on
+Thursdays. In the second one, we have only sprints of two weeks after the
 Christmas, excluding the sprint 3. The last one takes into account that we have
 an exam week here in Finland on week 8, so the sprint 6 would be 3 weeks long.
 
 Project manager and QA are flying to Canada with the customer and mentor on
-8.1.2014 - 20.1.2014. Their task is to help Canadian students to get in to the
-project by teaching them what Agilefant is and what processes we are using. This
-is a kind of kickoff session for them.
+8.1.2014 - 20.1.2014 (preliminary days). Their task is to help Canadian students
+to get in to the project by teaching them what Agilefant is and what processes
+we are using. This is kind of kickoff session for them.
 
 \paragraph{Option 1}
 
@@ -801,6 +837,14 @@ sprints as our schedule is not confirmed yet.
 \hline 
 \textbf{Date} & \textbf{Time} & \textbf{Event}\\ 
 \hline
+13.11.2013 &  &  Sprint 1 starts \\
+\hline
+26.11.2013 & klo 14:15-16 &  EES: Project managers \\
+\hline
+26.11.2013 & klo 16:15-18 &  EES: QA managers - req. engineering \\
+\hline
+27.11.2013 &  &  Sprint 2 starts \\
+\hline
 09.12.2013 & klo 13 &  DL: All documents \\
 \hline
 11.12.2013 & klo 11-12 & Project review (PP) \\
@@ -842,7 +886,11 @@ group\\
 
 \subsection{Sprint 1 Plan}
 
-Goals:
+\paragraph{Sprint goal}~\\
+Everyone understands the domain of the project and customer collaboration has
+been started. \checked
+
+\paragraph{General goals}~
 \begin{itemize}
   \item To understand Agilefant's vision \checked
   \item To have the main requirements from the Customer \checked
@@ -856,32 +904,60 @@ Goals:
 
 \subsection{Sprint 2 Plan}
 
-Goals:
+\paragraph{Sprint goal}~\\
+To develop version 0.1 with a simple task queue view.
+
+\paragraph{General goals}~
 \begin{itemize}
   \item To have the development environment set up to everyone \checked
   \item To have everyone working with the code \checked
   \item To have the code base ready
-  \item To have the high-level architecture design ready
+  \item To have the high-level architecture design ready \checked
   \item To have the wireframes ready \checked
   \item To identify risks in the project \checked
   \item To have an initial architecture ready \checked
 \end{itemize}
 
-\noindent Deliverables:
+\paragraph{Deliverables}~
 \begin{itemize}
-  \item Project plan (no QA plan)
-  \item Progress report slides 
+  \item Project plan (no QA plan) \checked
+  \item Progress report slides \checked
   \item Contract (one per a group) \checked
   \item Requirements document (except details of requirements)
 \end{itemize}
 
 \subsection{Sprint 3 Plan}
 
-Goals:
+\paragraph{General goals}~
 \begin{itemize}
   \item To get to know the Canadian students
   \item To familiarize Canadian students to the practices and processes
   \item To form three distributed teams
+\end{itemize}
+
+\paragraph{Deliverables of Implementation 1 phase}~
+\begin{itemize}
+  \item Project plan
+  \item Progress report
+  \item Requirements document 
+  \item Technical specification (at least the general architecture)
+  \item QA plan 
+  \item Test cases and test log
+\end{itemize}
+
+\paragraph{Deliverables of Implementation 2 phase}~
+\begin{itemize}
+  \item Project plan
+  \item Project review slides
+  \item Final report
+  \item Requirements document
+  \item Technical specification
+  \item User's manual 
+  \item Peer test materials to peer group
+  \item Peer test results to peer group
+  \item QA plan
+  \item Test cases and test log
+  \item Peer test session charters with logs (own and peer group's)
 \end{itemize}
 
 \section{Risk log}
@@ -1032,6 +1108,9 @@ AR \\
 
 \subsection{Materialized risks}
 
+\paragraph{Risk #1}~\\
+
 One developer quit during the first sprint as he found out he wouldn't be able
-to participate in the project as required.
+to participate in the project as required. We discussed about it with the mentor
+and the team, and we decided that he will take the course later again.
 
